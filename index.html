@@ -43,6 +43,7 @@
       display: flex;
       align-items: center;
       gap: 10px;
+      margin-bottom: 5px;
     }
     button {
       width: 100%;
@@ -91,6 +92,11 @@
         <label><input type="checkbox" id="surfaces"> Surfaces wiped</label>
         <label><input type="checkbox" id="equipment"> Equipment sanitized</label>
         <label><input type="checkbox" id="supplies"> Supplies restocked</label>
+
+        <!-- ⭐ NEW TASKS -->
+        <label><input type="checkbox" id="sweep"> Sweep</label>
+        <label><input type="checkbox" id="linen"> Linen Change</label>
+        <label><input type="checkbox" id="vacuum"> Vacuum</label>
       </div>
 
       <label>Notes (optional)</label>
@@ -103,7 +109,7 @@
     </form>
   </div>
 
-  <!-- ⭐ IMPORTANT: This connects your form to your backend -->
+  <!-- Connects form to backend -->
   <script src="script.js"></script>
 
 </body>

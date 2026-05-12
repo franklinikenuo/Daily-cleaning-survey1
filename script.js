@@ -1,4 +1,4 @@
-const API_BASE = "https://cleaning-survey-backend.onrender.com";
+const API_BASE = "https://cleaning-survey-api.onrender.com";
 
 function selectShift(value) {
   document.getElementById("shift").value = value;

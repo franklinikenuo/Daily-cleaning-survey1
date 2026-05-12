@@ -18,7 +18,7 @@ async function submitSurvey() {
 
   const payload = {
     room: document.getElementById("room").value.trim(),
-    staff_name: document.getElementById("staff").value.trim(),
+    staff_name: document.getElementById("staff_name").value.trim(),
     shift,
     tasks_completed: {
       floor_cleaned: document.getElementById("floor_cleaned").checked,

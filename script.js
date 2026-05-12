@@ -1,6 +1,5 @@
 const API_BASE = "https://cleaning-survey-backend.onrender.com";
 
-// SHIFT SELECTION
 function selectShift(value) {
   document.getElementById("shift").value = value;
 
@@ -10,7 +9,6 @@ function selectShift(value) {
   });
 }
 
-// SUBMIT FUNCTION
 async function submitSurvey() {
   const shift = document.getElementById("shift").value;
   if (!shift) {
